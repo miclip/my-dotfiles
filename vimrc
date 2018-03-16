@@ -21,6 +21,7 @@ Plugin 'fatih/vim-go'               " Helpful plugin for Golang dev
 Plugin 'vim-scripts/bufkill.vim'    " Kill buffers and leave windows intact
 Plugin 'ervandew/supertab'          " Perform all completions with Tab
 Plugin 'scrooloose/nerdtree'        " Directory tree explorer
+Plugin 'jonathanfilip/vim-lucius'   " Use lucius colorscheme
 call vundle#end()                   " Complete vunde initialization
 
 " detect file type, turn on that type's plugins and indent preferences
