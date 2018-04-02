@@ -20,6 +20,7 @@ Plugin 'tpope/vim-dispatch'         " Allow background builds
 Plugin 'tpope/vim-unimpaired'       " Adds common mappings
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'fatih/vim-go'               " Helpful plugin for Golang dev
+Plugin 'SirVer/ultisnips'           " Use snippets
 Plugin 'AndrewRadev/splitjoin.vim'  " Split structs into multi lines
 Plugin 'vim-scripts/bufkill.vim'    " Kill buffers and leave windows intact
 Plugin 'ervandew/supertab'          " Perform all completions with Tab
