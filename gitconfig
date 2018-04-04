@@ -19,3 +19,14 @@
   unstage="reset HEAD"
   rum="rebase master@{u}"
   sur="submodule update --init --recursive"
+[user]
+	name = Mark Alston
+	email = malston@pivotal.io
+[duet "env"]
+	git-author-initials = ma
+	git-author-name = Mark Alston
+	git-author-email = malston@pivotal.io
+	mtime = 1522853808
+	git-committer-initials = 
+	git-committer-name = 
+	git-committer-email = 
