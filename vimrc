@@ -104,6 +104,7 @@ let g:ctrlp_working_path_mode = ''
 "-----------------------------------------------------------------------------
 map \       :NERDTreeToggle<CR>
 map \|      :NERDTreeFind<CR>
+
 "------------------------------------------------------------------------------
 " APPEARANCE
 "------------------------------------------------------------------------------
@@ -126,7 +127,6 @@ set list                " enable display of invisible characters
 " invisible character colors
 highlight NonText ctermfg=239
 highlight SpecialKey ctermfg=239
-
 
 "------------------------------------------------------------------------------
 " supertab config
@@ -203,3 +203,29 @@ set laststatus=2
 " resize windows more easily
 nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
+
+" resize current buffer by +/- 5
+" nnoremap <D-left> :vertical resize -5<cr>
+" nnoremap <D-down> :resize +5<cr>
+" nnoremap <D-up> :resize -5<cr>
+" nnoremap <D-right> :vertical resize +5<cr>
+if bufwinnr(1)
+    noremap <silent> <C-O> :vertical resize +3<CR>
+    noremap <silent> <C-P> :vertical resize -3<CR>
+"    noremap <silent> <C-J> :resize -3<CR>
+"    noremap <silent> <C-K> :resize +3<CR>
+endif
+
+" Make handling vertical/linear Vim windows easier
+map <leader>w- <C-W>- " decrement height
+map <leader>w+ <C-W>+ " increment height
+map <leader>w] <C-W>_ " maximize height
+map <leader>w[ <C-W>= " equalize all windows
+
+" Handling horizontal Vim windows doesn't appear to be possible.
+" Attempting to map <C-W> < and > didn't work
+" Same with mapping <C-W>|
+
+" Make splitting Vim windows easier
+map <leader>; <C-W>s
+map <leader>` <C-W>v
