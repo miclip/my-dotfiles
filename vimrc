@@ -18,6 +18,7 @@ Plugin 'tpope/vim-commentary'       " Quickly comment lines out and in
 Plugin 'tpope/vim-fugitive'         " Help formatting commit messages
 Plugin 'tpope/vim-dispatch'         " Allow background builds
 Plugin 'tpope/vim-unimpaired'       " Adds common mappings
+Plugin 'tpope/vim-surround'         " Add, delete or change surrounding quotes
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'fatih/vim-go'               " Helpful plugin for Golang dev
 Plugin 'SirVer/ultisnips'           " Use snippets
