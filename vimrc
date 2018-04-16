@@ -27,6 +27,8 @@ Plugin 'vim-scripts/bufkill.vim'    " Kill buffers and leave windows intact
 Plugin 'ervandew/supertab'          " Perform all completions with Tab
 Plugin 'scrooloose/nerdtree'        " Directory tree explorer
 Plugin 'jonathanfilip/vim-lucius'   " Use lucius colorscheme
+Plugin 'mileszs/ack.vim'            " Use ack to search recursively in dirs
+Plugin 'regreplop.vim'              " Replace with a specified register
 call vundle#end()                   " Complete vunde initialization
 
 " detect file type, turn on that type's plugins and indent preferences
