@@ -61,7 +61,7 @@ pushd ~/workspace
   rm go1.9.4.linux-amd64.tar.gz
 
   # Install dotfiles
-  git clone https://github.com/cloudfoundry/loggregator-dotfiles.git
+  git clone https://github.com/malston/loggregator-dotfiles.git
   pushd loggregator-dotfiles
     ./install.sh
   popd
