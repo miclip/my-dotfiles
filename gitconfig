@@ -20,13 +20,13 @@
   rum="rebase master@{u}"
   sur="submodule update --init --recursive"
 [user]
-	name = Mark Alston
-	email = malston@pivotal.io
+	name = Michael Lipscombe
+	email = mlipscombe@outlook.com
 [duet "env"]
-	git-author-initials = ma
-	git-author-name = Mark Alston
-	git-author-email = malston@pivotal.io
+	git-author-initials = ml
+	git-author-name = Michael Lipscombe
+	git-author-email = mlipscombe@outlook.com
 	mtime = 1522853808
-	git-committer-initials = 
-	git-committer-name = 
-	git-committer-email = 
+	git-committer-initials =
+	git-committer-name =
+	git-committer-email =
