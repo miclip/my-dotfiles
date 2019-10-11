@@ -30,3 +30,5 @@
 	git-committer-initials =
 	git-committer-name =
 	git-committer-email =
+[core]
+	hooksPath = /Users/miclip/workspace/git-hooks-core

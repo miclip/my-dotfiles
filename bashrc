@@ -121,3 +121,9 @@ source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
 eval "$(direnv hook bash)"
+bind Space:magic-space
+eval "$(rbenv init -)"
+
+export PATH="/Users/miclip/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
