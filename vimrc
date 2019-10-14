@@ -37,6 +37,7 @@ Plugin 'embear/vim-uncrustify'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'hashivim/vim-terraform'
+Plugin 'janko/vim-test'
 call vundle#end()                   " Complete vunde initialization
 
 " detect file type, turn on that type's plugins and indent preferences
@@ -115,6 +116,17 @@ let g:ctrlp_working_path_mode = ''
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
 "map <C-n>|      :NERDTreeFind<CR>
 
+" vim-test
+nmap <silent> t<C-n> :TestNearest<CR>
+nmap <silent> t<C-f> :TestFile<CR>
+nmap <silent> t<C-s> :TestSuite<CR>
+nmap <silent> t<C-l> :TestLast<CR>
+nmap <silent> t<C-g> :TestVisit<CR>
+let test#strategy = {
+  \ 'nearest': 'neovim',
+  \ 'file':    'dispatch',
+  \ 'suite':   'basic',
+  \}
 "------------------------------------------------------------------------------
 " OmniSharp
 " -----------------------------------------------------------------------------
