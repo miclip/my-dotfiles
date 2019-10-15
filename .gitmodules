@@ -4,3 +4,6 @@
 [submodule "rbenv"]
 	path = rbenv
 	url = https://github.com/rbenv/rbenv.git
+[submodule "solarized8"]
+    path = vim/pack/themes/opt/solarized8
+    url  = https://github.com/lifepillar/vim-solarized8
