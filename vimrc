@@ -3,7 +3,6 @@
 "------------------------------------------------------------------------------
 set encoding=utf-8            " Ensure encoding is UTF-8
 set nocompatible              " Disable Vi compatability
-set mouse=a                   " Enable mouse in all modes
 set hidden                    " Allow unwritten buffers
 
 "-----------------------------------------------------------------------------

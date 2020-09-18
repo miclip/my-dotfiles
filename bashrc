@@ -12,7 +12,7 @@ unset platform_script
 ##############################################################################
 # GENERAL
 ##############################################################################
-export EDITOR=vim
+export EDITOR=nvim
 export TERM=screen-256color
 
 # enable programmable completion features (you don't need to enable
@@ -127,3 +127,12 @@ eval "$(rbenv init -)"
 export PATH="/Users/miclip/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+export MAVEN_HOME=/Users/miclip/workspace/maven/apache-maven-3.6.2
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+alias k=kubectl
+KUBE_EDITOR="nvim"
+
+alias watch="watch "
+export PATH=$PATH:/usr/local/go/bin
+export BASH_SILENCE_DEPRECATION_WARNING=1
